@@ -1,7 +1,9 @@
 package com.ac.springbootweb.entity;
 
 import jakarta.persistence.*;
+import lombok.Data;
 
+@Data
 @Entity
 @Table(name = "car")
 public class CarEntity {
